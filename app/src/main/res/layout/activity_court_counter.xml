@@ -26,6 +26,7 @@
                 android:textSize="16sp"/>
 
             <TextView
+                android:id="@+id/tvScoreTeamA"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="0"
@@ -34,6 +35,7 @@
                 android:layout_marginTop="8dp"/>
 
             <Button
+                android:id="@+id/btn3PointsTeamA"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="+3 Points"
@@ -41,6 +43,7 @@
                 android:layout_marginBottom="16dp"/>
 
             <Button
+                android:id="@+id/btn2PointsTeamA"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="+2 Points"
@@ -48,6 +51,7 @@
                 android:layout_marginBottom="16dp"/>
 
             <Button
+                android:id="@+id/btnFreeThrowTeamA"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Free Throw"
@@ -75,6 +79,7 @@
                 android:textSize="16sp"/>
 
             <TextView
+                android:id="@+id/tvScoreTeamB"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="0"
@@ -83,6 +88,7 @@
                 android:textSize="80sp"/>
 
             <Button
+                android:id="@+id/btn3PointsTeamB"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="+3 Points"
@@ -90,6 +96,7 @@
                 android:layout_marginBottom="16dp"/>
 
             <Button
+                android:id="@+id/btn2PointsTeamB"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="+2 Points"
@@ -97,6 +104,7 @@
                 android:layout_marginBottom="16dp"/>
 
             <Button
+                android:id="@+id/btnFreeThrowTeamB"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Free Throw"
@@ -107,6 +115,7 @@
     </LinearLayout>
 
     <Button
+        android:id="@+id/btnReset"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Reset"
